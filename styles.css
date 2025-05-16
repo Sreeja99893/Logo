@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+#first, #second, #third, #fourth {
+    width: 200px;
+    height: 200px;
+}
+
+#first {
+    background-color: #F34F1C; 
+}
+#second {
+    background-color: #7FBC00; 
+}
+#third {
+    background-color: #FFBA01;
+}
+#fourth {
+    background-color: #01A6F0; 
+}
